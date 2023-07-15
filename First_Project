@@ -1,0 +1,16 @@
+print("Earned amount: ")
+BG = int(input("Bubblegum: "))
+T = int(input("Toffee: "))
+IC = int(input("Ice cream: "))
+MC = int(input("Milk chocolate: "))
+D = int(input("Doughnut: "))
+P = int(input("Pancake: "))
+print(BG, T, IC, MC, D, P)
+S = BG + T + IC + MC + D + P
+I = print("Income: ", S)
+SE = int(input("Staff expenses: "))
+OE = int(input("Other expenses: "))
+print(SE)
+print(OE)
+Total = S - SE - OE
+print("Net income: " + '$', Total)
